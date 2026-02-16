@@ -25,7 +25,7 @@ export default function Hero() {
             </p>
 
             <h1 className="text-3xl sm:text-4xl md:text-6xl font-bold text-blue-600 mb-6 leading-tight">
-              <span className="inline-block whitespace-nowrap">
+              <span className="inline-block">
                 <Typewriter
                   words={['Chotika Bangboon']}
                   loop={1}

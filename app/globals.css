@@ -120,3 +120,8 @@ body.modal-open {
 body.modal-open ::-webkit-scrollbar {
   width: 0px;
 }
+
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+}

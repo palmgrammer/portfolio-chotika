@@ -143,7 +143,7 @@ This project is open source and available under the MIT License.
 ## 👤 Contact
 
 **Chotika Bangboon**
-- Email: chotika@example.com
+- Email: chotikabangboon2003@gmail.com
 - LinkedIn: [linkedin.com/in/chotika-bangboon](#)
 - GitHub: [github.com/chotikab](#)
 

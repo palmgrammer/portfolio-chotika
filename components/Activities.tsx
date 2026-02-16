@@ -187,29 +187,27 @@ export default function Activities() {
         </div>
 
         {/* Grid */}
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
           {activities.map((item) => (
             <div
               key={item.id}
               onClick={() => setSelected(item)}
-                className="bg-white rounded-3xl shadow-md hover:shadow-2xl 
-                            hover:-translate-y-2 hover:scale-[1.02]
-                            transition-all duration-800 ease-out 
-                            cursor-pointer overflow-hidden"
+              className="group bg-white rounded-3xl shadow-md 
+                        hover:shadow-2xl hover:-translate-y-2 
+                        transition-all duration-500 ease-out 
+                        cursor-pointer overflow-hidden flex flex-col"
             >
               {/* Image */}
-              <div className="relative h-56">
+              <div className="relative h-[200px] overflow-hidden">
                 <Image
                   src={item.image}
                   alt={item.title}
                   fill
-                  className="object-cover"
+                  className="object-cover group-hover:scale-105 transition duration-700"
                 />
 
-                {/* Gradient Overlay */}
                 <div className="absolute inset-0 bg-gradient-to-t from-blue-600/80 to-transparent" />
 
-                {/* Category Tag */}
                 <div className="absolute bottom-4 left-4">
                   <span className="bg-white/90 text-xs font-semibold px-3 py-1 rounded-full">
                     {item.category}
@@ -218,16 +216,18 @@ export default function Activities() {
               </div>
 
               {/* Content */}
-              <div className="p-6">
+              <div className="p-5 flex flex-col">
                 <h3 className="font-bold text-lg">{item.title}</h3>
+
                 <p className="text-sm text-gray-500 mt-1">
                   • {item.organizer}
                 </p>
-                <p className="text-gray-600 mt-4 text-sm leading-relaxed">
+
+                <p className="text-gray-600 mt-3 text-sm leading-relaxed line-clamp-2">
                   {item.description}
                 </p>
 
-                <p className="text-blue-600 font-semibold mt-6 text-sm">
+                <p className="text-blue-600 font-semibold mt-4 text-sm">
                   More Details →
                 </p>
               </div>
@@ -239,7 +239,7 @@ export default function Activities() {
       {/* Modal */}
       {selected && (
         <div className="fixed inset-0 bg-black/40 backdrop-blur-sm flex items-center justify-center z-50 p-6">
-          <div className="bg-white rounded-3xl max-w-4xl w-full max-h-[85vh] overflow-y-auto shadow-2xl relative scrollbar-thin">
+          <div className="bg-white rounded-3xl max-w-6xl w-full max-h-[90vh] overflow-y-auto shadow-2xl relative">
 
             {/* Close */}
             <button
@@ -250,7 +250,7 @@ export default function Activities() {
             </button>
 
             {/* Hero Image */}
-            <div className="relative h-72">
+            <div className="relative h-[300px] md:h-[420px] overflow-hidden rounded-t-3xl">
               <Image
                 src={selected.image}
                 alt={selected.title}
@@ -323,9 +323,9 @@ export default function Activities() {
                   <h4 className="text-xl font-bold mt-10 mb-4">
                     Activity Gallery
                   </h4>
-                  <div className="grid grid-cols-2 gap-4">
+                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                     {selected.details.gallery.map((img: string, i: number) => (
-                      <div key={i} className="relative h-40 rounded-xl overflow-hidden">
+                      <div key={i} className="relative aspect-[4/3] rounded-xl overflow-hidden">
                         <Image
                           src={img}
                           alt="gallery"
@@ -344,9 +344,9 @@ export default function Activities() {
                   <h4 className="text-xl font-bold mt-10 mb-4">
                     Activity Gallery
                   </h4>
-                  <div className="grid grid-cols-2 gap-6">
+                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                     {selected.details.galleries.map((img: string, i: number) => (
-                      <div key={i} className="relative h-[200px] rounded-xl overflow-hidden">
+                      <div key={i} className="relative aspect-[4/3] rounded-xl overflow-hidden">
                         <Image
                           src={img}
                           alt="galleries"
@@ -367,7 +367,7 @@ export default function Activities() {
                   </h4>
                   <div className="grid grid-cols-2 gap-4">
                     {selected.details.certificate.map((img: string, i: number) => (
-                      <div key={i} className="relative h-60 rounded-xl overflow-hidden">
+                      <div key={i} className="relative aspect-[4/3] rounded-xl overflow-hidden">
                         <Image
                           src={img}
                           alt="certificate"

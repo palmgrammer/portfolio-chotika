@@ -9,7 +9,7 @@
     const isInView = useInView(ref, { once: true, margin: '-100px' });
 
     return (
-      <section id="about" className="py-10 py-28 bg-gray-50" ref={ref}>
+      <section id="about" className="py-20 md:py-28 bg-gray-50" ref={ref}>
         <div className="max-w-6xl mx-auto px-6">
 
           {/* Section Title */}
@@ -33,12 +33,23 @@
             >
 
               {/* Big Heading with Correct S alignment */}
-              <div className="flex items-start mb-6">
-                <span className="text-7xl md:text-8xl font-extrabold text-black leading-[0.8] mr-2 relative -top-2">
+              <div className="relative mb-10">
+                <span className="
+                  absolute
+                  -top-10
+                  -left-6
+                  md:-left-10
+                  text-[80px]
+                  md:text-[170px]
+                  font-bold
+                  text-gray-200
+                  leading-none
+                  pointer-events-none
+                ">
                   S
                 </span>
 
-                <h3 className="text-3xl md:text-4xl font-bold leading-snug">
+                <h3 className="relative text-3xl md:text-4xl font-bold leading-snug pl-12 md:pl-28">
                   olve With <span className="text-blue-600">Logic</span>,<br />
                   peak With <span className="text-blue-600">Design.</span>
                 </h3>
@@ -71,7 +82,7 @@
               transition={{ delay: 0.4 }}
               className="flex justify-center md:justify-end"
             >
-              <div className="relative group w-[520px] h-[620px] flex items-center justify-center overflow-visible">
+              <div className="relative group w-[320px] h-[420px] md:w-[520px] md:h-[620px] flex items-center justify-center overflow-visible">
 
                 {/* Ripple Circles */}
                 <div className="absolute inset-0 flex items-center justify-center pointer-events-none">
@@ -113,20 +124,37 @@
                 <motion.div
                   whileHover={{ scale: 1.04 }}
                   transition={{ type: "spring", stiffness: 200 }}
-                  className="relative w-[360px] h-[520px]"
+                  className="
+                    relative
+                    w-[260px] h-[380px]       /* mobile */
+                    sm:w-[300px] sm:h-[440px]
+                    md:w-[360px] md:h-[520px] /* desktop */
+                    mx-auto
+                  "
                 >
                   {/* Grayscale */}
                   <img
                     src="/images/mono-about.png"
                     alt="Profile grayscale"
-                    className="absolute inset-0 w-full h-full object-cover rounded-[5rem] transition-opacity duration-500 group-hover:opacity-0"
+                    className="
+                      absolute inset-0
+                      w-full h-full
+                      object-cover
+                      rounded-[3rem] md:rounded-[5rem]
+                      transition-opacity duration-500
+                      group-hover:opacity-0
+                    "
                   />
 
                   {/* Color */}
                   <img
                     src="/images/color-about.png"
                     alt="Profile color"
-                    className="w-full h-full object-cover rounded-[5rem]"
+                    className="
+                      w-full h-full
+                      object-cover
+                      rounded-[3rem] md:rounded-[5rem]
+                    "
                   />
                 </motion.div>
 

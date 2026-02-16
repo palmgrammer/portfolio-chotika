@@ -50,7 +50,7 @@ export default function Contact() {
         </motion.div>
 
         {/* ===== Content Grid ===== */}
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-14">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-10">
 
           {/* ===== LEFT - Contact Info ===== */}
           <div className="space-y-6">
@@ -67,7 +67,7 @@ export default function Contact() {
                   initial={{ opacity: 0, y: 40 }}
                   animate={isInView ? { opacity: 1, y: 0 } : {}}
                   transition={{ delay: index * 0.1 }}
-                  className="bg-white p-6 rounded-2xl shadow-sm hover:shadow-lg transition flex items-center gap-5"
+                  className="bg-white p-4 rounded-2xl shadow-sm hover:shadow-lg transition flex items-center gap-5"
                 >
                   <div className="bg-blue-600 
                     w-12 h-12 

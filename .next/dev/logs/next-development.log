@@ -1,0 +1,120 @@
+[00:00:01.592] Server  LOG     ✓ Ready in 1109ms
+[00:00:05.439] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:06.475] Browser WARN    Image with src "/images/palm-profile.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:00:06.475] Browser WARN    Image with src "/images/dataengineer.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:00:06.475] Browser WARN    Image with src "/images/data science.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:00:06.475] Browser WARN    Image with src "/images/public speaking.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:00:06.475] Browser WARN    Image with src "/images/ncsa.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:00:30.877] Browser WARN    Image with src "/images/NCSA-01.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:00:30.877] Browser WARN    Image with src "/cert/certncsa.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:00:30.877] Browser WARN    Image with src "/images/NCSA-03.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:00:30.877] Browser WARN    Image with src "/images/NCSA-02.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:00:34.777] Browser ERROR   In HTML, %s cannot be a descendant of <%s>.
+This will cause a hydration error.%s <div> p 
+
+  ...
+    <RedirectBoundary>
+      <RedirectErrorBoundary router={{...}}>
+        <InnerLayoutRouter url="/" tree={[...]} params={{}} cacheNode={{rsc:<Fragment>, ...}} segmentPath={[...]} ...>
+          <SegmentViewNode type="page" pagePath="page.tsx">
+            <SegmentTrieNode>
+            <ClientPageRoot Component={function Home} serverProvidedParams={{...}}>
+              <Home params={Promise} searchParams={Promise}>
+                <main className="relative">
+                  <Navigation>
+                  <Hero>
+                  <About>
+                  <Experience>
+                  <Activities>
+                    <section id="activities" className="py-28 bg-g...">
+                      <div>
+                      <div className="fixed inse...">
+                        <div className="bg-white r...">
+                          <button>
+                          <div>
+                          <div className="p-10 pb-16">
+                            <h4>
+                            <p>
+                            <h4>
+                            <ul>
+                            <div className="p-10 pb-16">
+                              <h4>
+>                             <p className="text-gray-600 leading-relaxed">
+>                               <div className="mt-10" dangerouslySetInnerHTML={{__html:"\n      <d..."}}>
+                            ...
+                  ...
+          ...
+        ...
+
+[00:00:34.777] Browser WARN    Image with src "/images/speaking01.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:00:34.777] Browser WARN    Image with src "/images/speaking02.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:00:34.777] Browser WARN    Image with src "/images/speaking03.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:06:44.546] Server  LOG     ✓ Compiled in 1046ms
+[00:08:00.344] Server  LOG     ✓ Compiled in 132ms
+[00:09:50.385] Server  LOG     ✓ Compiled in 447ms
+[00:14:15.909] Server  LOG     ✓ Compiled in 84ms
+[00:14:27.906] Server  LOG     ✓ Compiled in 103ms
+[00:24:40.253] Server  LOG     ✓ Compiled in 131ms
+[00:24:47.609] Server  LOG     ✓ Compiled in 94ms
+[00:25:28.129] Server  LOG     ✓ Compiled in 118ms
+[00:25:42.376] Server  LOG     ✓ Compiled in 116ms
+[00:25:49.647] Server  LOG     ✓ Compiled in 123ms
+[00:40:54.550] Server  LOG     ✓ Compiled in 83ms
+[00:41:10.173] Server  LOG     ✓ Compiled in 111ms
+[00:54:07.161] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:54:07.428] Browser WARN    Image with src "/images/palm-profile.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:54:07.428] Browser WARN    Image with src "/images/dataengineer.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:54:07.428] Browser WARN    Image with src "/images/data science.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:54:07.428] Browser WARN    Image with src "/images/public speaking.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:54:07.428] Browser WARN    Image with src "/images/ncsa.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:54:08.122] Browser WARN    Image with src "/images/speaking02.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:54:08.122] Browser WARN    Image with src "/images/speaking01.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:54:08.122] Browser WARN    Image with src "/images/speaking03.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:58:02.309] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:58:02.512] Browser WARN    Image with src "/images/public speaking.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[00:58:02.512] Browser WARN    Image with src "/images/palm-profile.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:58:02.512] Browser WARN    Image with src "/images/dataengineer.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:58:02.512] Browser WARN    Image with src "/images/data science.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:58:02.512] Browser WARN    Image with src "/images/public speaking.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:58:02.512] Browser WARN    Image with src "/images/ncsa.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:58:03.656] Browser WARN    Image with src "/images/speaking01.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:58:03.656] Browser WARN    Image with src "/images/speaking02.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:58:03.656] Browser WARN    Image with src "/images/speaking03.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:59:54.041] Server  LOG     ✓ Compiled in 174ms
+[00:59:54.975] Browser WARN    Image with src "/images/speaking01.png" has "fill" and a height value of 0. This is likely because the parent element of the image has not been styled to have a set height.
+[00:59:54.975] Browser WARN    Image with src "/images/speaking02.png" has "fill" and a height value of 0. This is likely because the parent element of the image has not been styled to have a set height.
+[00:59:54.975] Browser WARN    Image with src "/images/speaking03.png" has "fill" and a height value of 0. This is likely because the parent element of the image has not been styled to have a set height.
+[01:00:33.955] Server  LOG     ✓ Compiled in 125ms
+[01:01:42.725] Server  LOG     ✓ Compiled in 113ms
+[01:01:59.708] Server  LOG     ✓ Compiled in 144ms
+[01:02:16.752] Server  LOG     ✓ Compiled in 137ms
+[01:02:24.133] Server  LOG     ✓ Compiled in 130ms
+[01:05:13.016] Server  LOG     ✓ Compiled in 81ms
+[01:05:37.212] Server  LOG     ✓ Compiled in 119ms
+[01:05:52.710] Server  LOG     ✓ Compiled in 122ms
+[01:06:05.172] Server  LOG     ✓ Compiled in 111ms
+[01:06:28.169] Browser WARN    Image with src "/cert/certncsa.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:06:28.169] Browser WARN    Image with src "/images/NCSA-03.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:06:28.169] Browser WARN    Image with src "/images/NCSA-02.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:06:28.169] Browser WARN    Image with src "/images/NCSA-01.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:06:52.830] Server  LOG     ✓ Compiled in 117ms
+[01:07:19.923] Browser WARN    Image with src "/cert/IT-Specialist.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:07:22.925] Browser WARN    Image with src "/images/data01.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:07:22.925] Browser WARN    Image with src "/images/data02.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:08:40.105] Server  LOG     ✓ Compiled in 89ms
+[01:08:47.819] Server  LOG     ✓ Compiled in 89ms
+[01:08:55.889] Server  LOG     ✓ Compiled in 89ms
+[01:09:07.374] Server  LOG     ✓ Compiled in 89ms
+[01:09:14.592] Server  LOG     ✓ Compiled in 123ms
+[01:09:24.646] Server  LOG     ✓ Compiled in 93ms
+[01:09:37.656] Server  LOG     ✓ Compiled in 148ms
+[01:14:36.181] Server  LOG     ✓ Compiled in 121ms
+[01:15:52.326] Server  LOG     ✓ Compiled in 116ms
+[01:16:18.167] Server  LOG     ✓ Compiled in 86ms
+[01:16:57.981] Server  LOG     ✓ Compiled in 95ms
+[01:17:05.274] Server  LOG     ✓ Compiled in 74ms
+[01:17:14.740] Server  LOG     ✓ Compiled in 95ms
+[01:17:37.978] Server  LOG     ✓ Compiled in 269ms
+[01:17:49.475] Server  LOG     ✓ Compiled in 84ms
+[01:21:20.191] Server  LOG     ✓ Compiled in 109ms

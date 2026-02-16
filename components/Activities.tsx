@@ -325,7 +325,7 @@ export default function Activities() {
                   </h4>
                   <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                     {selected.details.gallery.map((img: string, i: number) => (
-                      <div key={i} className="relative aspect-[4/3] rounded-xl overflow-hidden">
+                      <div key={i} className="relative aspect-[16/9] rounded-xl overflow-hidden">
                         <Image
                           src={img}
                           alt="gallery"
@@ -346,7 +346,7 @@ export default function Activities() {
                   </h4>
                   <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                     {selected.details.galleries.map((img: string, i: number) => (
-                      <div key={i} className="relative aspect-[4/3] rounded-xl overflow-hidden">
+                      <div key={i} className="relative aspect-[16/9] rounded-xl overflow-hidden">
                         <Image
                           src={img}
                           alt="galleries"

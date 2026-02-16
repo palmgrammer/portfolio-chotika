@@ -37,8 +37,8 @@
                 <span className="
                   absolute
                   -top-10
-                  -left-6
-                  md:-left-10
+                  -left-0
+                  md:-left-4
                   text-[80px]
                   md:text-[170px]
                   font-bold

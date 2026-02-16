@@ -178,7 +178,7 @@ export default function Activities() {
 
         {/* Header */}
         <div className="text-center mb-20">
-          <h2 className="text-5xl font-bold">
+          <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold">
             Activities & <span className="text-blue-600">Workshops</span>
           </h2>
           <p className="text-gray-600 mt-6 text-lg">

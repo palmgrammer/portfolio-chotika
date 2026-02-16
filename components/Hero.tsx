@@ -12,7 +12,7 @@ export default function Hero() {
       className="min-h-screen flex items-center bg-gray-100 pt-20"
     >
       <div className="max-w-6xl mx-auto px-6 w-full">
-        <div className="grid md:grid-cols-2 items-center gap-12">
+        <div className="grid md:grid-cols-2 items-center gap-12 text-center md:text-left">
 
           {/* LEFT CONTENT */}
           <motion.div
@@ -24,7 +24,7 @@ export default function Hero() {
               👋🏻 My name is
             </p>
 
-            <h1 className="text-5xl md:text-6xl font-bold text-blue-600 mb-6 leading-tight">
+            <h1 className="text-3xl sm:text-4xl md:text-6xl font-bold text-blue-600 mb-6 leading-tight">
               <span className="inline-block whitespace-nowrap">
                 <Typewriter
                   words={['Chotika Bangboon']}

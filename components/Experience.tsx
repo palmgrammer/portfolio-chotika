@@ -76,117 +76,107 @@ export default function Experience() {
         {/* ===== Timeline ===== */}
         <div className="relative mt-20">
 
-          {/* Center Line */}
-          <div className="absolute left-1/2 -translate-x-1/2 w-[2px] bg-gray-300 h-full" />
+          {/* Vertical Line */}
+          <div className="absolute left-6 top-0 bottom-0 w-[2px] bg-gray-300" />
 
-          <div className="space-y-32">
+          <div className="space-y-16">
 
-            {/* ================= DELTA ================= */}
-            <div className="grid grid-cols-2 items-center">
-
-              {/* LEFT (Date) */}
-              <div className="flex justify-end pr-16">
-                <div className="flex items-center gap-2 border border-blue-200 text-blue-600 px-4 py-2 rounded-lg bg-white shadow-sm text-sm">
-                  <Calendar size={16} />
-                  July - December 2025
-                </div>
+            {/* ===== DELTA ===== */}
+            <div className="relative pl-16">
+              {/* Icon */}
+              <div className="absolute left-0 top-6 w-12 h-12 bg-blue-600 rounded-full flex items-center justify-center shadow-md border-4 border-white">
+                <Briefcase size={18} className="text-white" />
               </div>
 
-              {/* RIGHT (Card) */}
-              <div className="relative pl-16">
-                {/* Timeline Icon */}
-                <div className="absolute left-0 top-1/2 -translate-x-1/2 -translate-y-1/2 
-                  w-14 h-14 bg-blue-600 rounded-full flex items-center justify-center 
-                  shadow-lg border-4 border-white z-10">
-                    <Briefcase size={20} className="text-white" />
-                </div>
+              {/* Date */}
+              <div className="mb-4">
+                <span className="text-sm text-blue-600 font-medium flex items-center gap-2">
+                  <Calendar size={14} />
+                  July - December 2025
+                </span>
+              </div>
 
-                <div
-                  onClick={() => setSelectedCompany('delta')}
-                  className="bg-white p-5 rounded-3xl shadow-lg hover:shadow-2xl transition cursor-pointer max-w-xl"
-                >
-                  <div className="flex items-start gap-4">
-                    <img
-                      src="/logo/delta.svg"
-                      alt="Delta Electronics"
-                      className="w-12 h-12 object-contain"
-                    />
-                    <div>
-                      <h3 className="font-bold text-lg">
-                        Delta Electronics (Thailand) Public Co., Ltd.
-                      </h3>
-                      <p className="text-blue-600 font-semibold mt-1">
-                        Digital Solution Intern
-                      </p>
-                    </div>
+              {/* Card */}
+              <div
+                onClick={() => setSelectedCompany('delta')}
+                className="bg-white p-6 rounded-2xl shadow-md hover:shadow-xl transition cursor-pointer"
+              >
+                <div className="flex items-start gap-4">
+                  <img
+                    src="/logo/delta.svg"
+                    alt="Delta"
+                    className="w-10 h-10 object-contain"
+                  />
+                  <div>
+                    <h3 className="font-semibold text-lg">
+                      Delta Electronics (Thailand) Public Co., Ltd.
+                    </h3>
+                    <p className="text-blue-600 text-sm font-medium mt-1">
+                      Digital Solution Intern
+                    </p>
                   </div>
-
-                  <p className="text-gray-600 mt-4 text-sm leading-relaxed">
-                    Explored and implemented digital solutions to support HR digital transformation through workflow automation,
-                    while organizing workshops to equip employees with digital tools and supporting application testing.
-                  </p>
-
-                  <p className="mt-4 text-blue-600 font-semibold hover:underline">
-                    What I did? →
-                  </p>
                 </div>
+
+                <p className="text-gray-600 mt-4 text-sm leading-relaxed">
+                  Explored and implemented digital solutions to support HR digital transformation,
+                  organized workshops, and supported application testing.
+                </p>
+
+                <p className="mt-4 text-blue-600 text-sm font-semibold">
+                  What I did? →
+                </p>
               </div>
             </div>
 
-
-            {/* ================= MFEC ================= */}
-            <div className="grid grid-cols-2 items-center">
-
-              {/* LEFT (Card) */}
-              <div className="relative pr-16 flex justify-end">
-                {/* Timeline Icon */}
-                <div className="absolute right-0 top-1/2 translate-x-1/2 -translate-y-1/2 
-                  w-14 h-14 bg-blue-600 rounded-full flex items-center justify-center 
-                  shadow-lg border-4 border-white z-10">
-                    <Briefcase size={20} className="text-white" />
-                </div>
-
-                <div
-                  onClick={() => setSelectedCompany('mfec')}
-                  className="bg-white p-5 rounded-3xl shadow-lg hover:shadow-2xl transition cursor-pointer max-w-xl"
-                >
-                  <div className="flex items-start gap-4">
-                    <img
-                      src="/logo/mfec.svg"
-                      alt="MFEC"
-                      className="w-12 h-12 object-contain"
-                    />
-                    <div>
-                      <h3 className="font-bold text-lg">
-                        MFEC Public Company Limited
-                      </h3>
-                      <p className="text-blue-600 font-semibold mt-1">
-                        Data Science Intern
-                      </p>
-                    </div>
-                  </div>
-
-                  <p className="text-gray-600 mt-4 text-sm leading-relaxed">
-                    Supported data pipelines and automated reporting using Python and Bash to deliver client-ready data.
-                  </p>
-
-                  <p className="mt-4 text-blue-600 font-semibold hover:underline">
-                    What I did? →
-                  </p>
-                </div>
+            {/* ===== MFEC ===== */}
+            <div className="relative pl-16">
+              {/* Icon */}
+              <div className="absolute left-0 top-6 w-12 h-12 bg-blue-600 rounded-full flex items-center justify-center shadow-md border-4 border-white">
+                <Briefcase size={18} className="text-white" />
               </div>
 
-              {/* RIGHT (Date) */}
-              <div className="flex justify-start pl-16">
-                <div className="flex items-center gap-2 border border-blue-200 text-blue-600 px-4 py-2 rounded-lg bg-white shadow-sm text-sm">
-                  <Calendar size={16} />
+              {/* Date */}
+              <div className="mb-4">
+                <span className="text-sm text-blue-600 font-medium flex items-center gap-2">
+                  <Calendar size={14} />
                   April - June 2025
+                </span>
+              </div>
+
+              {/* Card */}
+              <div
+                onClick={() => setSelectedCompany('mfec')}
+                className="bg-white p-6 rounded-2xl shadow-md hover:shadow-xl transition cursor-pointer"
+              >
+                <div className="flex items-start gap-4">
+                  <img
+                    src="/logo/mfec.svg"
+                    alt="MFEC"
+                    className="w-10 h-10 object-contain"
+                  />
+                  <div>
+                    <h3 className="font-semibold text-lg">
+                      MFEC Public Company Limited
+                    </h3>
+                    <p className="text-blue-600 text-sm font-medium mt-1">
+                      Data Science Intern
+                    </p>
+                  </div>
                 </div>
+
+                <p className="text-gray-600 mt-4 text-sm leading-relaxed">
+                  Supported data pipelines and automated reporting using Python and Bash.
+                </p>
+
+                <p className="mt-4 text-blue-600 text-sm font-semibold">
+                  What I did? →
+                </p>
               </div>
             </div>
 
           </div>
         </div>
+
       </div>
 
       {/* ================= MODAL ================= */}

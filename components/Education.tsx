@@ -50,7 +50,7 @@ export default function Education() {
       <div className="max-w-7xl mx-auto px-6 lg:px-8">
 
         {/* Header */}
-        <h2 className="text-5xl font-bold text-black mb-8">
+        <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-black mb-8">
           Education & Skills
         </h2>
 

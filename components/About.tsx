@@ -39,7 +39,7 @@
                   -top-10
                   -left-0
                   md:-left-4
-                  text-[80px]
+                  text-[60px]
                   md:text-[170px]
                   font-bold
                   text-gray-200

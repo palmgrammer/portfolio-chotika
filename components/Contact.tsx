@@ -69,7 +69,13 @@ export default function Contact() {
                   transition={{ delay: index * 0.1 }}
                   className="bg-white p-6 rounded-2xl shadow-sm hover:shadow-lg transition flex items-center gap-5"
                 >
-                  <div className="w-12 h-12 bg-blue-600 rounded-xl flex items-center justify-center text-white">
+                  <div className="bg-blue-600 
+                    w-12 h-12 
+                    md:w-14 md:h-14
+                    flex items-center justify-center 
+                    rounded-xl
+                    text-white 
+                    shrink-0">
                     <Icon size={22} />
                   </div>
 

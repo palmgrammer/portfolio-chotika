@@ -17,10 +17,14 @@ export const metadata: Metadata = {
     "Portfolio",
     "Python",
     "Machine Learning",
-	"Data Analys",
-	"Data Scientist",
-	"UX/UI",
+	  "Data Analys",
+	  "Data Scientist",
+	  "UX/UI",
   ],
+
+  icons: {
+    icon: "/favicon.png",
+  },
 
   openGraph: {
     title: "Chotika Bangboon (โชติกา บางบุญ) | Portfolio",

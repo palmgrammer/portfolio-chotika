@@ -9,7 +9,7 @@ const education = [
     id: 1,
     institution: 'Naresuan University',
     degree: "Bachelor’s degree - Computer Engineering",
-    duration: '2022 - Present',
+    duration: '2022 - 2026',
   },
   {
     id: 2,
